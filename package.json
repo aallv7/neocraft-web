@@ -5,7 +5,7 @@
   "homepage": "https://aallv7.github.io/neocraft-web",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
