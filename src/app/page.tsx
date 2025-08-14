@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Layout from '@/components/Layout';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,9 +21,7 @@ export default function Home() {
             Bangun base bersama temanmu, hancurkan base orang lain, mulai peperangan, apapun dan kapanpun! 
             Imajinasimu (dan spesifikasi server) adalah batasnya!
           </p>
-          <a href="/#join" className="py-1 mx-[20%] bg-gray-900 rounded-xl border-2 font-bold text-xl delay-150 duration-300 ease-in-out hover:text-blue-300 hover:bg-gray-700 hover:scale-105">
-            Bergabung Sekarang
-          </a>
+          <Link href="/#join" className="py-1 mx-[20%] bg-gray-900 rounded-xl border-2 font-bold text-xl delay-150 duration-300 ease-in-out hover:text-blue-300 hover:bg-gray-700 hover:scale-105">Bergabung Sekarang</Link>
         </section>
         <section className="flex flex-col gap-4 bg-gray-800 rounded-lg w-[80%] text-center text-wrap justify-center p-8" id="join">
           <h1 className="text-4xl font-bold">
