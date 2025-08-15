@@ -63,12 +63,12 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/ketentuan" className="text-white hover:text-blue-200 transition duration-300">
+            <Link href="./ketentuan" className="text-white hover:text-blue-200 transition duration-300">
               Ketentuan
             </Link>
           </li>
           <li>
-            <Link href="/komunitas" className="text-white hover:text-blue-200 transition duration-300">
+            <Link href="./komunitas" className="text-white hover:text-blue-200 transition duration-300">
               Komunitas
             </Link>
           </li>
@@ -84,12 +84,12 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="/ketentuan" className="block rounded-lg text-white hover:bg-gray-800 hover:scale-105 transition-all delay-150 duration-300 ease-in-out py-2 px-4" onClick={() => setIsOpen(false)}>
+            <Link href="./ketentuan" className="block rounded-lg text-white hover:bg-gray-800 hover:scale-105 transition-all delay-150 duration-300 ease-in-out py-2 px-4" onClick={() => setIsOpen(false)}>
               Ketentuan
             </Link>
           </li>
           <li>
-            <Link href="/komunitas" className="block rounded-lg text-white hover:bg-gray-800 hover:scale-105 transition-all delay-150 duration-300 ease-in-out py-2 px-4" onClick={() => setIsOpen(false)}>
+            <Link href="./komunitas" className="block rounded-lg text-white hover:bg-gray-800 hover:scale-105 transition-all delay-150 duration-300 ease-in-out py-2 px-4" onClick={() => setIsOpen(false)}>
               Komunitas
             </Link>
           </li>
