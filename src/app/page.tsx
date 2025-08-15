@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
         <Image 
-                src="/img/title.png" 
+                src="./img/title.png" 
                 alt="" 
                 width={640}
                 height={360}

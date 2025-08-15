@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-white text-2xl font-bold tracking-wide">
         <Image 
-        src="/img/title.png" 
+        src="./img/title.png" 
         alt="" 
         width={160}
         height={90}
